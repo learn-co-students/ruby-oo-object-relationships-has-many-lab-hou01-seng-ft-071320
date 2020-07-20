@@ -8,9 +8,7 @@ class Song
     end
     
     def songs
-        @@all.select do |song|
-            song.artist==artist.name
-        end
+        @@all
     end
 
     def self.all
