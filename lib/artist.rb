@@ -23,14 +23,5 @@ class Artist
         Song.all.length
     end
 
-    def artist_name
-        binding.pry
-        if self.artist != nil
-            self.artist.name
-        else
-            nil
-        end
-    end
-
 end
 
