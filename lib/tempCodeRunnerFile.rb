@@ -1,0 +1,1 @@
+array1 = Song.all.select {|song| song.artist.name == self.name}.song_title
